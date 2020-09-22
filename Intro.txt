@@ -1,0 +1,16 @@
+Built tool is a program that automate the process of building an executable application from source code.This building process includes activities like compiling,linking and packaging the code into an executable from.
+
+The activities include:
+*Downloading the dependencies.
+*Compiling source code to the form of binary code.
+*Packaging that binary code.
+*Running the test.
+*Deploying them to the production systems.
+
+SOME BUIL-TOOLS ARE AS FOLLOWS:
+There are many built tools present in IT market.Some are
+1. Apache Ant - Popular for java platform development and uses an XML file format.
+2. Apache Maven - A java platform tool for dependency management and automated software build
+3. Bazel - A portion of blaze written in java,using Starlark to build projects in java,c,c++,python.
+4. Buildout - A Python based build system for creating,assembling and deploying applications from multiple parts.
+5. Gradle - An open-source build and automation system with an Apache Groovy based domain specific language,combining features of Apache Ant and Apache Maven.
