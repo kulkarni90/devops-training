@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project name="DevOps Training" default="info">
+<target name="info">
+<echo>DevOps team- Welcome to Apache Ant!</echo>
+</target>
+.....
+<target name="clean" >
+</target>
+.....
+<target name="compile" >
+</target>
+.....
+<target name="deploy" depends="package">
+</target>
+</project>
