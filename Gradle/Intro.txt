@@ -1,0 +1,11 @@
+Gradle is a build automation tool used for languages such as Java, Groovy or Scala.
+Gradle can be configured to run Tasks which do things like compile jars, run tests, create documentation and more.
+Gradle describes everything on the basis of projects and tasks. Every Gradle build contains one or more projects, and these projects contain some tasks.
+ 
+Gradle project:
+A project represents a library JAR or a web application.
+Each project in Gradle is made up of one or more tasks.
+
+Gradle Tasks:
+Task is a single piece of work that a build performs. For example, it could compile classes, create a JAR, 
+Generate Javadoc, and publish some archives to a repository and more.
