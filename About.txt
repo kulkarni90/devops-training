@@ -2,7 +2,6 @@ GitHub is a code hosting platform for collaboration and version control.
 GitHub lets developer team to work together on projects.
 
 GitHub essentials are:
-
 1.Repositories
 2.Branches
 3.Commits
@@ -31,5 +30,5 @@ GitHub essentials are:
   After we commit, we can create a pull request and start a discussion, before the code is merged to make correcttions if suggested by collabrator.
 
 5.Git
-  Git is CLI a tool to communicate with Github from local syaytem.
+  Git is a CLI tool to communicate with Github from local system/machine
 
