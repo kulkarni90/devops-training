@@ -1,0 +1,45 @@
+
+WHAT IS ANT?
+ANT is nothing but Another Neat Tool.It is java based build tool from Apache.
+
+HISTORY:
+Ant was created by James Duncan Davidson.It was originally used to build Tomcat, and was bundled as a part of Tomcat distribution.
+
+FEATURES:
+>>Ant is the most complete Javabuild and deployment tool available.
+>>Ant is platform neutral and can handle platform specific properties such as modifying the modified time of a file using 'touch' command.
+>>Ant script are written using XML.
+>>Ant is good at automating Complicated repetitive tasks.
+>>Ant comes with a big list of predefined tasks.
+>>Ant provides an interface to develop custom tasks.
+>>Ant can be easily invoked from the command line and it acn integrated with IDEs.
+>>ANT is one of the highly Customizable and Configurable build tool that is available in this space of DevOps tools.
+>>ANT is also an ideal build tool if your project is a mix and match of technologies like C, C++, and Java, etc.
+
+WHAT IS BUILD.XML?
+ANT build file called build.xml,it is a discriptive language which undertands by ANT.This files should reside in the base directory of the project,but it is not mandatory.
+Then can be of any name and in any location in computer.All build files require the project element and at least one target element.
+
+The XML has three elements which are called as 'Tags'. 
+1. Project
+2. Target
+3. Tasks
+
+1. Project:
+Project elemtent has again three attributes
+1. Name: contains name of project
+2. Default:The default target for build script.A project may contain any number of targets.
+3. Basedir:The base directory or the root folder for the project.
+
+2. Target:
+The target element has three attributes
+1. Name:The name of target
+2. Depends:Comma separated list of all targets that this target depends on.
+3. source:the source of program(location)
+
+3. Tasks:
+Task elemts has four attributes
+1. Compile
+2. Build
+3. Test
+4. Deploy
