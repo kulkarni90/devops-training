@@ -1,0 +1,48 @@
+WHAT IS COMMAND?
+>>A command is an instruction given by a user telling a 'TERMINAL' to do something, such a run a single program or a group of linked programs. Commands are generally issued by typing them in at the command line (i.e.,the all-text display mode)and then pressing the ENTER key, which passes them to the 'SHELL'.
+
+WHAT IS TERMINAL and SHELL?
+>>A shell is the program that the terminal sends user input. The shell generates output and passes it back to the terminal for display.
+
+Below are some basic commands with discription which are used in git:
+1.git config --global user.name"username" (to linkup github(server) with local git( )
+2.git config -- global user.mail "mail"(to link with mail)
+3.git clone   -> To clone a repository into new directory.
+4.git init    -> Create an empty Git repository or reinitialize an existing one.
+5.git add     -> Add file contents to the index.
+6.git add.    -> Add all files contents to the index
+7.git branch  -> Lists branches present in repository.
+8.git branch -a -> Lists all branches in remote repository.
+9.git branch -d -> Delets specified branch.
+10.git-show-branch -> Show branches and their commits.
+11.git-filter-branch -> Rewrite branch.
+12.git-checkout -> Switch branches or restore working tree files.
+13.git checkout-index -> Copy files from the index to working tree.
+14.git commit   -> Record changes to the repository.
+15.git commit-graph -> Write and verify commit-graph files.
+16.git-commit-tree -> Creat a new commit object.
+17.git-fetch    -> Download objects and refs from another repository.
+18.git -status  -> Show the working tree status.
+19.git pull     -> Fetch from and integrate with another repository or a local branch.
+20.git-request-pull -> Generates a summary pf pending changes.
+21.git push     -> Update remote refs along with associated objects.
+22.git-http-push -> Push objects over HTTP/DAV to another repository,
+23.git-http-fetch -> Download from a remote Git repository via HTTP.
+24.git megre    -> Join two or more development histories together.
+25.git-merge-file -> Run a three-way file merge.
+26.git-merge-index -> Run a merge for files needing merging.
+27.git-megre-base -> Find as good common ancestors as possible for a merge.
+28.git mergetool -> Run merge conflict resolution tools to resolve merge conflict.
+29.git-merge-tree -> Show three-way merge without touching index. 
+30.git-merge-one-file -> The standard helper program to use with git-merge-index.
+31.git-fmt-merge-msg -> Produce a merge commit message.
+32.git rm      -> Remove files from the working tree and from the index.
+33.git restore -> Restore working tree files.
+34.git revert  -> Revert some existing commit.
+35.git reset   -> Reset current HEAD to the specifird state.
+36.git switch  -> Switch branches.
+37.git remote  -> Mangae set of tracked repositories.
+38.git-help    -> Display information about Git.
+39.git -shell  -> Restricted login shell for Git-only SSH access.
+40.git log     -> Lists version history for the current branch.  
+41.git log --follow -> Lists version history for a file,including renames.
