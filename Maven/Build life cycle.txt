@@ -1,0 +1,12 @@
+In maven,the build is un using a predefined set of steps called the build life cycle.
+The individual steps are called phases
+The tasks to performed during each phase are to be configured in the project file.
+
+some of the most common used life-cycle phases are as fallows:
+
+1.Validate-Checks build prerequisites
+2.Compile- Compiles the source code 
+3.Test-Runs unit test for compiled code
+4.Package-Assembles the compiled code into a binary 
+5.Install-Shares the build with other Projects on the same Machine
+6.Deploy-Publishes the build into remote repository.
