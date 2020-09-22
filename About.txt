@@ -2,7 +2,6 @@ GitHub is a code hosting platform for collaboration and version control.
 GitHub lets developer team to work together on projects.
 
 GitHub essentials are:
-
 1.Repositories
 2.Branches
 3.Commits
