@@ -1,0 +1,13 @@
+It is a project management and comprehension tool that provides developers a complete build lifecycle framework. 
+It is used to automate the project's build infrastructure in almost no time as Maven uses a standard directory layout and a default build lifecycle.
+It is based on Project Object Model, 'POM'.
+The POM contains information about the project and steps to be performed by Maven to build the project.
+Some of the configuration that can be specified in the POM are following:
+*project dependencies
+*plugins
+*goals
+*build profiles
+*project version
+*developers
+*mailing list
+Note:POM file shoul contain three mandatory fields: groupId, artifactId, version.
