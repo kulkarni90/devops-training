@@ -30,5 +30,5 @@ GitHub essentials are:
   After we commit, we can create a pull request and start a discussion, before the code is merged to make correcttions if suggested by collabrator.
 
 5.Git
-  Git is CLI a tool to communicate with Github from local syaytem.
+  Git is a CLI tool to communicate with Github from local system/machine
 
