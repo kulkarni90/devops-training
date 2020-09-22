@@ -1,0 +1,35 @@
+GitHub is a code hosting platform for collaboration and version control.
+GitHub lets developer team to work together on projects.
+
+GitHub essentials are:
+
+1.Repositories
+2.Branches
+3.Commits
+4.Pull Requests
+5.Git (the version control software GitHub is built on)
+
+1.Repository
+* A GitHub repository can be used to store a development project.
+* It can contain folders and any type of files (HTML, CSS, JavaScript, Documents, Data, Images).
+* It should also include a licence file and a README file about the project.
+* It can also be used to store any resources or data that we want to share.
+
+2.Branch
+* A GitHub branch is used to work with different versions of a repository at the same time.
+* Master branch is the default branch in repository.
+* New Branches are to work separate from the master branch. When code is ready, they can be merged into the master branch.
+  If we make changes to the master br  anch while working on a new branch, these updates can be pulled in.
+
+3.Commits
+  In GitHub, changes are called commits.
+  Each commit (change) has a description explaining in commit message with set of rules called Semantic Versioning.
+
+4.Pull Requests
+  Pull Requests are key actions of GitHub collaboration.With a pull request we are requesting that our changes should be
+  merged (pulled in) with the master. Pull requests show content differences, changes, additions, and subtractions in green & red colors.
+  After we commit, we can create a pull request and start a discussion, before the code is merged to make correcttions if suggested by collabrator.
+
+5.Git
+  Git is CLI a tool to communicate with Github from local syaytem.
+
