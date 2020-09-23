@@ -1,0 +1,55 @@
+<project default="all">
+  <target name="compile"> <mkdir dir="build/classes"/>
+    <javac srcdir="src" destdir="build/classes">
+      <compilerArg value="-Xlint"/>
+    </javac>
+  </target>
+  <target name="jar" depends="compile">
+    <jar file="build/app.jar">
+      <fileset dir="build/classes"/>
+    </jar>
+  </target>
+  <target name="test" depends="compile">
+    <mkdir dir="build/test-classes"/>
+    <javac srcdir="test" destdir="build/test-classes" debug="on">
+      <classpath>
+        <pathelement path="build/classes"/>
+        <fileset dir="lib" includes="*.jar"/>
+      </classpath>
+    </javac>
+
+    <mkdir dir="build/test-reports"/>
+    <junit printsummary="true">
+      <classpath>
+        <pathelement path="build/test-classes"/>
+        <pathelement path="build/classes"/>
+        <fileset dir="lib" includes="*.jar"/>
+      </classpath>
+      <formatter type="xml"/>
+      <batchtest todir="build/test-reports">
+        <fileset dir="test" includes="**/*Test.java"/>
+      </batchtest>
+    </junit>
+  </target>
+  <target name="javadoc">
+    <mkdir dir="build/javadoc"/>
+    <javadoc destdir="build/javadoc">
+      <fileset dir="src"/>
+    </javadoc>
+  </target>
+  <target name="findbugs">
+    <taskdef name="findbugs" classname="edu.umd.cs.findbugs.anttask.FindBugsTask">
+      <classpath>
+        <pathelement path="lib/findbugs/lib/findbugs.jar"/>
+      </classpath>
+    </taskdef>
+    <findbugs home="lib/findbugs" outputFile="build/findbugs.xml">
+      <sourcePath path="src"/>
+      <class location="build/classes"/>
+    </findbugs>
+  </target>
+  <target name="clean">
+    <delete dir="build"/>
+  </target>
+  <target name="all" depends="jar,test,javadoc,findbugs"/>
+</project>
