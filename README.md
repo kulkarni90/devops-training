@@ -1,2 +1,2 @@
-# DevOps-Training
-Practical &amp; Interactive Approach with DevOps Tools Like Git-hub, build tools -ANT, Maven, Gradle, Jenkins, Docker, AWS,  Hashicorp Terraform and Valut.
+# BUILD FILES
+This repo contains build file of Ant,Maven and Gradle buildtools 
