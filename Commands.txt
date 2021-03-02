@@ -1,19 +1,12 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 WHAT IS COMMAND?
 >>A command is an instruction given by a user telling a 'TERMINAL' to do something, such a run a single program or a group of linked programs. Commands are generally issued by typing them in at the command line (i.e.,the all-text display mode)and then pressing the ENTER key, which passes them to the 'SHELL'.
-=======
-=======
->>>>>>> 3d58779f161dd55b4201bd0a907299c395cc5bfe
+
+
 WHAT IS GIT?
 >>Git is a fast, scalable, distributed version control system with an unusually rich 'COMMAND' set that provides both high-level operations and full access to internals.
         
 WHAT IS COMMAND?
 >>A command is an instruction given by a user telling a 'TERMINAL' to do something, such a run a single program or a group of linked programs. Commands are generally issued by typing them in at the command li    ne (i.e.,the all-text display mode)and then pressing the ENTER key, which passes them to the 'SHELL'.
-<<<<<<< HEAD
->>>>>>> 3d58779f161dd55b4201bd0a907299c395cc5bfe
-=======
->>>>>>> 3d58779f161dd55b4201bd0a907299c395cc5bfe
 
 WHAT IS TERMINAL and SHELL?
 >>A shell is the program that the terminal sends user input. The shell generates output and passes it back to the terminal for display.
@@ -60,10 +53,3 @@ Below are some basic commands with discription which are used in git:
 39.git -shell  -> Restricted login shell for Git-only SSH access.
 40.git log     -> Lists version history for the current branch.  
 41.git log --follow -> Lists version history for a file,including renames.
-<<<<<<< HEAD
-
-=======
-     
-   
-    
->>>>>>> 3d58779f161dd55b4201bd0a907299c395cc5bfe
