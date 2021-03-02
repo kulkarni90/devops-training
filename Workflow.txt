@@ -1,0 +1,16 @@
+git pull remote_repository
+#Get changes from a remote repository and merge them into our own repository
+
+git add
+#Changes made in local repo to satging
+
+git status
+#See what Git thinks is going on
+#Hint:Use this frequently!
+#Work on our files (remember to add any new ones)
+
+git commit –m “What we did”
+#It describes the file"
+
+git push
+#The changes in local will be send to remote repo 
